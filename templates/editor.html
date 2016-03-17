@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+
+<style type="text/css">
+	h4 {font-family: sans-serif;}
+	p {font-family: sans-serif;}
+	a {font-family: sans-serif; color:#d15423; text-decoration:none;}
+</style>
+ 
+
+<title>HTML5 Canvas Example - Simple Dragging Objects</title>
+
+<script src="/static/Modernizr/modernizr-2.0.6.js"></script>
+
+<script type="text/javascript">
+	config = {{ configuration|tojson }};
+</script>
+<script type="text/javascript" src="/static/js/main.js"></script>
+
+</head>
+<body>
+<div style="top: 50px; text-align:center">
+
+<canvas id="canvasOne" width="500" height="300">
+Your browser does not support HTML5 canvas.
+</canvas>
+<p>Drag the circles with the mouse.</p>
+</div>
+</body>
+</html>
