@@ -35,8 +35,8 @@ function Sphere(x, y, r, g, b, rad, canvas){
 	this.r = r;
 	this.g = g;
 	this.b = b;
-	this.ip = prompt('IP','x.x.x.x');
-	this.port = prompt('Port','80');;
+	this.ip = "1.2.3.4";//prompt('IP','x.x.x.x');
+	this.port = "80";//prompt('Port','80');;
 	this.rad = rad;
 	//this.canvas = canvas;
 	var ctx = canvas.getContext('2d');
